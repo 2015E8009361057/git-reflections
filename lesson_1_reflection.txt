@@ -1,0 +1,54 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+	
+	In windows system, can use FC command: FC old_file_name new_file_name;
+	in Linux or Mac system, can use diff command: 
+	diff -u old_file_name new_file_name.
+	ps: -u means display the difference in the easy to read mode.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    There are several ways:
+    1. Saving mannual copies
+    2. Dropbox
+    3. Google Docs
+    4. Wikipedia
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The pros of manually choosing when create a commit:
+    1. You can stress the main points through the message.
+    2. You have more freedom to choose when to create the commit.
+
+    The cons of manually choosing when create a commit:
+    1. Maybe you forget something in the message.
+    2. Maybe there is a lot changes or little changes when you create the commit.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because these version control systems, like Git, put these multiple files in
+    a repository.
+    A Git repository is a collection of files that are tracked by Git as a 
+    cohesive unit.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    View the history of files:
+    1. git log
+    2. git log --stat (give some statistics about which files have changed in each commit)
+    3. git diff first_id second_id
+    ps: git diff considers the first argument as the "original", and the second
+    argument as the "new" version.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    git checkout id
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Manage my projects
