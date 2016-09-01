@@ -7,3 +7,10 @@ Why might you want to always pull changes manually rather than having Git automa
 	1. It cann't be access Internet anytime.
 	2. It gives me choice when I want pull changes.
 	3. Remote repository will not be always correct or something.
+	4. You may want to have your own version in local repository, and hold another
+	   version in remote repository.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+	When you want to change or have your own version of others' repository, you can use forks or clones, but forks is used in URLs, clones is used between a URL and a computer.
+	When you want add new features on your project, it is a better idea to have branches. That's to say, branches is used in one repository.
+
