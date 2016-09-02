@@ -1,4 +1,3 @@
 # Git and GitHub
 
-Study notes of Git and GitHub.
-And the course is Udacity's How to Use Git and GitHub.
+Study notes of How to use Git and GitHub which is a course on Udacity.
